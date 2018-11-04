@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Which Animal Are You?</string>
+
+    <string name="start_button_text">LET\'S FIND OUT</string>
+    <string name="next_question_button_text">NEXT QUESTION</string>
+    <string name="submit_button_text">SUBMIT</string>
+    <string name="question_image_view_description">Owl drawing.</string>
+
+    <!-- The questions -->
+    <string name="question_0">I tend to stay up until late at night.</string>
+    <string name="question_1">I eat fruits and veggies every day.</string>
+    <string name="question_2">I love hanging out with my friends.</string>
+    <string name="question_3">I tend to forget things.</string>
+    <string name="question_4">I\'m a pretty good swimmer.</string>
+    <string name="question_5">I\'d rather avoid conflicts.</string>
+    <string name="question_6">I like giving orders.</string>
+    <string name="question_7">I\'m pretty shy.</string>
+    <string name="question_8">I go out jogging every day.</string>
+    <string name="question_9">I\'m rather picky when it comes to food.</string>
+    <string name="question_10">I would love to live on a tropical island.</string>
+    <string name="question_11">I love Treehouse.</string>]
+
+    <!-- The 5 possible choices for each question. -->
+    <string name="choice_0">Not a chance!</string>
+    <string name="choice_1">I guess not.</string>
+    <string name="choice_2">Hmmm, not sure…</string>
+    <string name="choice_3">I guess it\'s true.</string>
+    <string name="choice_4">Oh my! Definitely!</string>
+    <string name="choice_hint">Select an answer…</string>
+
+    <!-- The possible animals. -->
+    <string name="animals_bear">bear</string>
+    <string name="animals_fox">fox</string>
+    <string name="animals_rabbit">rabbit</string>
+    <string name="animals_raccoon">raccoon</string>
+    <string name="animals_squirrel">squirrel</string>
+    <string name="animals_lion">lion</string>
+    <string name="animals_elephant">elephant</string>
+    <string name="animals_giraffe">giraffe</string>
+    <string name="animals_zebra">zebra</string>
+    <string name="animals_panda">panda</string>
+    <string name="animals_penguin">penguin</string>
+
+    <string name="caption_title">What are you thinking about this very moment??</string>
+    <string name="caption_edit_text_hint">Your precious thoughts here …</string>
+    <string name="results_button_text">LET\'S SEE THE RESULTS</string>
+    <string name="caption_question_text">What are you thinking about this very moment?</string>
+
+
+</resources>

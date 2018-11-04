@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ResultActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/bubble_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bubble" />
+
+        <!-- place TextView top at 25% of screen height and
+        left and right at 20% of screen width. -->
+        <TextView
+            android:id="@+id/caption_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+            app:layout_constraintRight_toLeftOf="@+id/right_guideline"
+            app:layout_constraintTop_toTopOf="@+id/top_guideline"
+            tools:text="ANGELA"/>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/top_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/left_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.30" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/right_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.60" />
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/result_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/animals_giraffe" />
+
+</LinearLayout>
