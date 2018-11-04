@@ -4,7 +4,7 @@ An interactive game for users to determine which kind of animals they are. The u
 
 
 <img src="screenshot_which_animal_quiz_01.png" width="250"/> <img src="screenshot_which_animal_quiz_02.png" width="250"/>
-<img src="screenshot_which_animal_quiz_03.png" width="250"/> 
+
 <img src="screenshot_which_animal_quiz_04.png" width="250"/> <img src="screenshot_which_animal_quiz_05.png" width="250"/> <img src="screenshot_which_animal_quiz_06.png" width="250"/> 
 
 
