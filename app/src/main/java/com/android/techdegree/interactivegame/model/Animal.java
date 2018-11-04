@@ -70,10 +70,9 @@ public class Animal implements  Comparable<Animal> {
 
     @Override
     public int compareTo(Animal other) {
-        // We always want to sort by last name then first name
         if (equals(other)) return 0;
         return score.compareTo(other.score);
-}
+    }
 
     @Override
     public boolean equals(Object o) {
